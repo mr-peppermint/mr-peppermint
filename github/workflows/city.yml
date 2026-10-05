@@ -1,0 +1,51 @@
+name: 3D City Builder
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D City (Purplish Theme)
+    permissions:
+      contents: write 
+      
+    steps:
+      - name: Generate 3D Isometric City Chart
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: profile-3d-city.svg
+          base: ""
+          config_timezone: Asia/Kolkata
+          config_padding: 0, 8%
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #160f29;
+              --color-calendar-graph-day-L1-bg: #3b1d6e;
+              --color-calendar-graph-day-L2-bg: #6b21a8;
+              --color-calendar-graph-day-L3-bg: #9333ea;
+              --color-calendar-graph-day-L4-bg: #c084fc;
+            }
+            svg {
+              background: #0f0a1c !important;
+              border-radius: 12px;
+            }
+            .isocalendar {
+              filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.35));
+            }
+            .isocalendar .day-level-0 { fill: #1c1433 !important; }
+            .isocalendar .day-level-1 { fill: #4c1d95 !important; }
+            .isocalendar .day-level-2 { fill: #7c3aed !important; }
+            .isocalendar .day-level-3 { fill: #a855f7 !important; }
+            .isocalendar .day-level-4 { fill: #d8b4fe !important; }
+            text { fill: #e9d5ff !important; }
+            h2, h3, .field { color: #c084fc !important; fill: #c084fc !important; }
