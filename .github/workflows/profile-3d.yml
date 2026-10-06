@@ -22,8 +22,8 @@ jobs:
       
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: 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
-          USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: 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
+          USERNAME: mr-peppermint
           
       - name: Commit & Push generated assets
         run: |
