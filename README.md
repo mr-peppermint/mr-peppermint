@@ -20,20 +20,10 @@
 
 ---
 
-### 🏙️ 3D Contribution City (`Night Green`)
+### Contributions
 
 <div align="center">
   <img src="profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph (Night Green)" width="100%" />
-</div>
-
-<details>
-<summary><b>✨ Alternate Views (3D Rainbow / GitBlock)</b></summary>
-<br>
-
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Rainbow Graph" width="100%" />
-  <br/><br/>
-  <img src="profile-3d-contrib/profile-gitblock.svg" alt="GitBlock 3D Graph" width="100%" />
 </div>
 
 </details>
@@ -44,7 +34,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vue,nodejs,express,python,fastapi,golang,docker,kubernetes,postgres,mongodb,redis,graphql,git,github,linux,vscode&perline=10&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=js,react,html,css,python,bash,git,github,linux,vse&perline=10&theme=dark" />
   </a>
 </div>
 
@@ -75,17 +65,17 @@
 ### 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://linkedin.com">
+
+  <a href="https://www.linkedin.com/in/dixitdahiya01/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  &nbsp;
-  <a href="https://twitter.com">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+
+ 
+
+  <a href="https://thetadivision.dpdns.org">
+    <img src="https://img.shields.io/badge/Website-238636?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
-  &nbsp;
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+
 </div>
 
 <br>
